@@ -65,3 +65,8 @@ The repo contains the following materials for Jodie Burchell's talk delivered at
 * `talk-materials/talk-sources.md` contains all of the papers and other sources she used for her talk. It also contains all of her image credits.
 * `talk-materials/beyond-the-hype.pdf` contains a copy of her slides.
 
+## Troubleshooting
+
+- After cloning the repo, installing the dependencies and running `node rag-pdf-qa.js`, the following error is displayed in the terminal:
+  > "TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined"
+  - "This may be related to your Node.js version. The problem was resolved after upgrading from Node 18.17.0 to Node 20.17.0." _(Thanks to @rogerthao588 for sharing this issue with us)_
