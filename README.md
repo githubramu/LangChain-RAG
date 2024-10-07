@@ -6,7 +6,7 @@ This repository contains the JavaScript version of the python RAG implementation
 
 - Here's a [detailed tutorial](https://js.langchain.com/v0.2/docs/tutorials/rag) about building a RAG app from the `LangChain` docs.
 
-- Uses `LangChain.js **v0.2**`
+- Uses `LangChain.js v0.2`
 
 ![](./assets/RAG.Indexing.png)
 
