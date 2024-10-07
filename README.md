@@ -6,6 +6,8 @@ This repository contains the JavaScript version of the python RAG implementation
 
 - Here's a [detailed tutorial](https://js.langchain.com/v0.2/docs/tutorials/rag) about building a RAG app from the `LangChain` docs.
 
+- Uses `LangChain.js **v0.2**`
+
 ![](./assets/RAG.Indexing.png)
 
 ![](./assets/RAG.Retrieval.and.Generation.png)
@@ -70,3 +72,7 @@ The repo contains the following materials for Jodie Burchell's talk delivered at
 - After cloning the repo, installing the dependencies and running `node rag-pdf-qa.js`, the following error is displayed in the terminal:
   > "TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined"
   - "This may be related to your Node.js version. The problem was resolved after upgrading from Node 18.17.0 to Node 20.17.0." _(Thanks to @rogerthao588 for sharing this issue with us)_
+
+## Todo
+
+- [ ] Migrate to version **v0.3**
